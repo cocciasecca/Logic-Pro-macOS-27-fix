@@ -16,6 +16,19 @@ Referenced from: MAMachineLearning.framework
 Expected in: Accelerate.framework
 ```
 
+## Usage
+
+Download `patch-logic-bnns.command`, then run:
+
+```bash
+chmod +x ~/Downloads/patch-logic-bnns.command
+~/Downloads/patch-logic-bnns.command
+```
+
+Enter your administrator password when macOS asks for it. Terminal does not display password characters while you type; this is normal.
+
+After the script reports success, launch Logic Pro normally from `/Applications`.
+
 ## What the patch does
 
 The script changes `_BNNSGraphGetSize` in Logic's bundled `MAMachineLearning.framework` from a strong import to a weak import.
@@ -41,19 +54,6 @@ to:
 It then creates the patched copy at the original application path. If patching or verification fails, the script attempts to restore the original automatically.
 
 The script stops without changing anything if `Logic Pro.app.bak` already exists.
-
-## Usage
-
-Download `patch-logic-bnns.command`, then run:
-
-```bash
-chmod +x ~/Downloads/patch-logic-bnns.command
-~/Downloads/patch-logic-bnns.command
-```
-
-Enter your administrator password when macOS asks for it. Terminal does not display password characters while you type; this is normal.
-
-After the script reports success, launch Logic Pro normally from `/Applications`.
 
 ## Restoring the original application
 

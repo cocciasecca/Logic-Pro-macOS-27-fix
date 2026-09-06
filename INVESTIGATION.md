@@ -92,6 +92,5 @@ Per user preference, ChromaGlow/ML has not been bypassed or disabled.
 
 Validation: 13 Python tests, real two-slice binary patch, dyld import inspection
 and the legacy shim smoke test passed. Native probes built with warnings as
-errors and passed the MIL tests described above. Full app copy/signing passed for
-`Logic-BNNS-Test-2.app`; Logic GUI, MIDI, Drummer and audio parity remain
-untested.
+errors and passed the MIL tests described above. Logic GUI, MIDI, Drummer and
+audio parity remain user-tested acceptance items.

@@ -1,5 +1,7 @@
 # Logic Pro macOS 27 BNNS Fix
 
+Logic Pro X downloaded [here](https://web.archive.org/web/20260405163845/https://secure-appldnld.apple.com/LogicPro/082-59694-20250731-47EF8912-A031-471B-97B2-6EA2F7501E4B/LogicProTrial.dmg) or by magnet ``.
+
 Fix sperimentale per Logic Pro 11.2.2 su macOS 27.0, dove Logic crasha per il
 simbolo BNNS mancante `_BNNSGraphGetSize`.
 
